@@ -12,7 +12,7 @@ st.set_page_config(layout='wide')
 
 # Loading the Data URL
 DATA_URL = (
-    "/Users/sanskarsrivastava/Desktop/DataScience/KSI.csv"
+    "KSI.csv"
 )
 
 
