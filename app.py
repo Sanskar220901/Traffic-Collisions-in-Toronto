@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pydeck as pdk
 import numpy as np
-import plotly.express as px
+import plotly as px
 import plotly.graph_objects as go
 
 st.set_page_config(layout='wide')
