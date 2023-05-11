@@ -167,7 +167,7 @@ st.markdown("<h2 style='text-align: center;'>Location of Motor Vehicle Collision
 
 st.markdown("<h5 style='text-align: center;'>Please use the slider below to change the hour of the day</h5>", unsafe_allow_html=True)
 hour = st.slider("", 0, 24)
-data_hour = data.query("TIME_UPDATED == @hour")
+data_hour = data.query("HOUR == @hour")
 
 st.markdown("<p style='text-align: center;'>Vehicle Collisions between <b>%i:00</b> and <b>%i:00</b> </p>" % (hour, (hour+1)), unsafe_allow_html=True)
 
@@ -184,7 +184,7 @@ st.pydeck_chart(pdk.Deck(
     layers=[
         pdk.Layer(
             "HexagonLayer",
-            data=data_hour[['TIME_UPDATED', 'LATITUDE', 'LONGITUDE']],
+            data=data_hour[['HOUR', 'LATITUDE', 'LONGITUDE']],
             get_position=['LONGITUDE', 'LATITUDE'],
             radius=100,
             extruded = True,
