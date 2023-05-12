@@ -15,7 +15,7 @@ DATA_URL = (
 
 #Heading of Page
 st.markdown("<hr>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center;'> Traffic Collisions in Toronto (2006 - 2022) </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'> Exploratory Analysis - Traffic Collisions in Toronto (2006 - 2022) </h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center;'> Sanskar Srivastava </h4>", unsafe_allow_html=True)
 
 st.markdown("<hr>", unsafe_allow_html=True)
