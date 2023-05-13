@@ -26,9 +26,6 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 st.markdown("<p style='text-align: center;'> The website is a Streamlit dashboard that provides insights on motor vehicle collisions in Toronto from 2006 to 2022. The dataset includes all traffic collisions where a person was either killed or seriously injured (KSI). The dashboard offers various interactive tools for data analysis, such as a map that shows the exact locations of KSI cases in Toronto categorized by the unique neighborhood ID setup by City of Toronto, and a slider to choose the year to analyze the trend of motor vehicle collisions. Additionally, it provides information on the number of KSI cases by hour of day and age group, helping users identify the peak hour and age group with the highest number of victims. The website is useful for people who are interested in analyzing the trends and patterns of motor vehicle collisions in Toronto.</p>", unsafe_allow_html=True)
 
-st.markdown("<a href = 'https://ago-item-storage.s3.us-east-1.amazonaws.com/c0b17f1888544078bf650f3b8b04d35d/PSDP_Open_Data_Documentation.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCXVzLWVhc3QtMSJHMEUCIHXeJr6DKLm8V%2FUI6o6bdDhHyFKkh1VppUuR01%2BFdjL4AiEA%2F1RqFcWv7%2FiVFcK%2F6K%2BfvQvkgNbn%2BCUui9pefH9FWQgquwUIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2MDQ3NTgxMDI2NjUiDFJNg9i4zPfjrKAnmSqPBcshFFLxhvBD9gGU3M%2BraG1b3sHTrLOmWNIeFSaEzRj1mj1ZHIxsVrRhDIGmmGW%2BqIampoMD8HSZMfPsBj1PJ2JY5HvZBRq1%2BBygWUa0YGn0c4oxtMUsX80MM%2FcgPdOu7SWSxYPO85GJyF9Bpf49pkTpr5FNSV04rcCZWJQ3MP6jXN1Y7bKfQnHeYra%2FL%2BOIdr0ehZHku%2F4nLjrqDnyrqjBZhMFwa%2Fahh%2BGozKe2cJeIAqn59EaXNs44W7EzYIyuJnosYXviBdzNEzTgaYfGH2L7SPYYcyihaK7n0OHwn52FNBMJlXec%2FRIMBDNA6yTwTjAj54PKD5l8ETHHEJx1x88hnYDxfaRqAlrY38uTEbHzP%2BbV85a65whdufW2GjgM7H9qZMLqhjl3g3zIlZsvLx%2BSuWZ5kv4%2F0JoUKIfCHW8Dt8I%2B12tvfXVZm4CSGqG2E8oRJUpiRnmYqbG6hedclUeP9UNqQ%2FCXWXG%2FNB55%2F4E37GMW24wZ1abs8eJCYzSg8X1IeWpVbUchforOcC%2FrjFztPbrXlgR9hmlKLHEq4P7DljnUVUBDjO4GStUnAnOC%2F578phvcwVGQ%2BzLd%2BTZGUL%2FwBzSZ0sz4PkriFvPtfJTVP5ssCZ1yA%2BR%2Bm1vHnVdPan3yFVmITETRVT9JPIHsfN8lTB1oY0BxFg9t34pOpjsdIrl1q%2F%2FCuHyCTsQr7qMkv1woGyVKegFcPW0FmJSuL2xKF3hvyNoUL9s0C9o4YYoomr9Vd8g3Zif75WzXM8WX8yEn%2FREZjvv7ds0qLdn2wZrSCAi9yodwc4xJd77utsxVp22%2FN%2BKL3Q1Brz6oETxGmmU3%2BCxNHjdSJS5Oq0JrChlumN9%2BWdsZ14s2ZtB6GOEwj67uogY6sQHhNCJWw5V%2BD%2BUmSGTf8BPaJTwPBZF2NTXYG%2FSuRW8YdKYY1NogmakLwDswqvFFgrPyDyuTxBcXMdQwqL0R57VzuKT8mDYyAJZ9wkyEEe5U4Cd29jj9ZBYuk9S3ts%2FTkdOfTfYu9zqtJ3woDJX66q6XKFo9CVPFCNmq6EWWP0JMDp3rqvpFMkIzIxqsA7nn2I5qIlVuqOec8qr%2FugzPwQgYAnsXDq9Ve6UMfD%2Bh8hpI1OI%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230510T142605Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAYZTTEKKEU42VIWUT%2F20230510%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bf7fc557820225ed170a8ace3e12c7969a296d95da255d3ebab8614848352b64'><p style='text-align: center;'>Open Data Documentation</p></a>", unsafe_allow_html=True)
-
-
 
 
 #Data Loading
@@ -284,6 +281,9 @@ st.markdown("<p style='text-align: center;'> Based on the line graph, we can con
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
+st.markdown("<h5 style='text-align: center;'> References: </h5>", unsafe_allow_html=True)
 
+
+st.markdown("<a href = 'https://data.torontopolice.on.ca/datasets/TorontoPS::ksi/about'> Toronto Police Service - Public Safety Data Portal </a>", unsafe_allow_html=True)
 
 
