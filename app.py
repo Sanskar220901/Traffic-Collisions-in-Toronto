@@ -284,6 +284,6 @@ st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'> References: </h5>", unsafe_allow_html=True)
 
 
-st.markdown("<a style='text-align: center; href = 'https://data.torontopolice.on.ca/datasets/TorontoPS::ksi/about'> Toronto Police Service - Public Safety Data Portal </a>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center;'> <a href = 'https://data.torontopolice.on.ca/datasets/TorontoPS::ksi/about'> Toronto Police Service - Public Safety Data Portal </a></p>", unsafe_allow_html=True)
 
 
